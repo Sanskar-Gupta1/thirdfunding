@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "context/index.jsx",
+    "pages/Start.jsx",
+    "pages/CampaignDetails/[PostId].jsx",
+    "components/CommunityPageComponents/ChatView.jsx",
+    "components/Modals/AddRoomModal.jsx",
+    "components/CommunityPageComponents/ChatMessage.jsx"
+, "components/CommunityPageComponents/RoomList.jsx", "components/CommunityPageComponents/ConversationList.jsx", "pages/News.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
